@@ -16,7 +16,7 @@ def index():
 def result():
     amount = float(request.form['amount'])
 
-    apikey = 'abcde' # change your to your own key
+    apikey = 'abcde' # change to your own apikey from fix.io
     endpoint = "http://data.fixer.io/api/latest?access_key=" + apikey
 
     data = {}
